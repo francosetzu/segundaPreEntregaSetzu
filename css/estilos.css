@@ -10,7 +10,7 @@
 body{ /*Establecemos la fuente y el color del texto*/
     font-family: 'Manrope', sans-serif;
     color: black;
-    
+    background-color: rgb(237, 227, 214);
     
 }
 header{ /*Header, agrego en este caso background image y le modifico la posición, tamaño y el repeat*/
@@ -25,6 +25,8 @@ header{ /*Header, agrego en este caso background image y le modifico la posició
     left:0%*/
     
 }
+
+
 
 .contenedorLogoNav{ /*contenedor del logo y la navegación*/
     display: inline-block;
@@ -79,13 +81,12 @@ text-align: right;
 }
 
 .tituloPrincipal{ /*Titulo principal*/
-    margin-top: 0;
-    margin-left: 450px;
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
     font-weight:600;
-   /* position:relative; */
+    display: flex;
+    justify-content: center;
     color:rgb(250, 74, 177);
     
 }
@@ -101,6 +102,47 @@ text-align: right;
     background-color: rgb(237, 227, 214);
     height: 100vh;
 }
+
+.contenedorCard{
+    margin-top: 8%;
+    
+}
+
+.card-group{
+    margin-top: 3%;
+    column-gap: 15px;
+    padding-bottom: 3%;
+    
+    
+}
+
+
+.col{
+    
+    margin-top: 3%;
+
+}
+
+
+.contenedorTarjeta{
+    margin-top: 7%;
+
+}
+
+.contenedorTarjeta2{
+    margin-top: 1%;
+}
+
+
+
+
+
+
+.contenedorEstrellas{
+    display: flex;
+    justify-content: center;
+}
+
 
 .divLogoParrafo
 
@@ -176,10 +218,8 @@ text-align: right;
 
 .footer{
     background-color: rgb(220, 200, 174);
-    
-    bottom: 0;
-    position: relative;
-    text-align: center;
+    text-align: center; 
+    padding-bottom: 15px;
     
 }
 
