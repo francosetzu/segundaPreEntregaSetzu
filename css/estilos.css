@@ -51,10 +51,49 @@ text-align: right;
     
 }
 
-
 .main{
     background-color: rgb(237, 227, 214);
     
+}
+
+
+.contenedorImagen{
+    justify-content: center;
+    margin-left: 30%;
+}
+
+.textoDeInicio{
+    margin-right: 10%;
+}
+
+.floresDeBach{
+    color:rgb(250, 74, 177);
+}
+
+.contenedorImagenUno{
+    margin-left: 20%;
+}
+
+.contenedorImagenDos{
+    margin-left: 20%;
+}
+
+.textoNosotros{
+    margin-right: 10%;
+    margin-top: 10%;
+    padding-top: 50px;
+}
+
+.cantidad{
+    color: rgb(171, 39, 233);
+}
+
+.contenedorImagenTres{
+    margin-left: 20%;
+}
+
+.contenedorImagenCuatro{
+    margin-left: 20%;
 }
 
 .contenedorForm{
@@ -184,6 +223,14 @@ text-align: right;
     object-fit: cover;
 }
 
+.las{
+    color: rgb(169, 131, 204);
+}
+
+.cita{
+    color:rgba(247, 116, 116, 0.918)
+}
+
 .parrafoFinal{
     text-align: center;
     display: block;
@@ -237,65 +284,42 @@ text-align: right;
 
 /*MEDIA QUERIE PROPIA PARA QUE EL TEXTO NO SE ME BAJE AL FOOTER EN VERSION MOBILE*/
 @media screen and (min-width:0) and (max-width: 786px){
-    .footer{
-        margin-top: 30%;
-    }
-
     .divContenedorImagen{
-        margin-right: 50%;
+        margin-right: 80%;
+        padding-right: 70%;
     }
 
-    .contenedorImagen{
-        margin-right: 50%;
-    }
-    
     .columnaImagenInicial{
         margin-left: 20%;
     }
-    
+
     .textoDeInicio{
         margin-left: 10%;
     }
 
-    .contenedorImagenUno .contenedorImagenDos .contenedorImagenTres{
-        margin-left: 10%;
+    .textoNosotros{
+        margin-left: 15%;
     }
 
+    .divContenedorImagenUno {
+        margin-right: 50%;
+    }
+
+    .divContenedorImagenDos {
+        margin-right: 50%;
+    }
+
+    .divContenedorImagenTres {
+        margin-right: 50%;
+    }
+
+    .divContenedorImagenCuatro{
+        margin-right: 20%;
+    }
+
+    .footer{
+        margin-top: 30%;
+    }
 }
 
 /* TERMINA LA MEDIA QUERIE*/
-
-
-.contenedorImagen{
-    justify-content: center;
-    margin-left: 30%;
-}
-
-.textoDeInicio{
-    margin-right: 10%;
-}
-
-.floresDeBach{
-    color:rgb(250, 74, 177);
-}
-
-.contenedorImagenUno{
-    margin-left: 20%;
-}
-
-.contenedorImagenDos{
-    margin-left: 20%;
-}
-
-.textoNosotros{
-    margin-right: 10%;
-    margin-top: 10%;
-}
-
-.contenedorImagenTres{
-    margin-left: 20%;
-}
-
-.cantidad{
-    color: rgb(171, 39, 233);
-}
