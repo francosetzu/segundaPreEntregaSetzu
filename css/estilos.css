@@ -257,6 +257,10 @@ text-align: right;
         margin-left: 10%;
     }
 
+    .contenedorImagenUno .contenedorImagenDos .contenedorImagenTres{
+        margin-left: 10%;
+    }
+
 }
 
 /* TERMINA LA MEDIA QUERIE*/
