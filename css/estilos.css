@@ -241,10 +241,12 @@ text-align: right;
         margin-top: 30%;
     }
 
-    
+    .divContenedorImagen{
+        margin-right: 50%;
+    }
     
     .columnaImagenInicial{
-        margin-right: 50%;
+        margin-left: 20%;
     }
     
     .textoDeInicio{
@@ -268,6 +270,7 @@ text-align: right;
 .floresDeBach{
     color:rgb(250, 74, 177);
 }
+
 
 
 
