@@ -244,6 +244,10 @@ text-align: right;
     .divContenedorImagen{
         margin-right: 50%;
     }
+
+    .contenedorImagen{
+        margin-right: 50%;
+    }
     
     .columnaImagenInicial{
         margin-left: 20%;
@@ -271,6 +275,23 @@ text-align: right;
     color:rgb(250, 74, 177);
 }
 
+.contenedorImagenUno{
+    margin-left: 20%;
+}
 
+.contenedorImagenDos{
+    margin-left: 20%;
+}
 
+.textoNosotros{
+    margin-right: 10%;
+    margin-top: 10%;
+}
 
+.contenedorImagenTres{
+    margin-left: 20%;
+}
+
+.cantidad{
+    color: rgb(171, 39, 233);
+}
