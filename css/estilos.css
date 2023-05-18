@@ -40,10 +40,28 @@ text-align: right;
 }
 
 
+
+
+
+.boton{
+    background-color: rgba(247, 28, 148, 0.678);
+}
+
+.redes{
+    padding: 15px; 
+}
+
+.derechos{
+    margin-top: 2%;
+}
+
+
+
+
+
 .tituloPrincipal{ /*Titulo principal*/
     text-align: center;
     text-transform: uppercase;
-    text-decoration: underline;
     font-weight:600;
     display: flex;
     justify-content: center;
