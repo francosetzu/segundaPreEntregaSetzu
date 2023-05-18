@@ -14,10 +14,10 @@ body{ /*Establecemos la fuente y el color del texto*/
     
 }
 header{ /*Header, agrego en este caso background image y le modifico la posición, tamaño y el repeat*/
-    background-image: url(../assets/img/flat-lay-natural-medicinal-herbs-bottles.jpg);   
+    background-image: url(../assets/img/flores-color-purpura-agua-blanca.jpg);
     background-position: top;
     background-size: 99.9% 100%;
-    background-repeat: cover;
+    background-size: cover;
     /*background-repeat:no-repeat;
     background-size: 30%;
     background-position:center;
@@ -38,26 +38,6 @@ list-style: none;
 text-align: right;
 
 }
-
-
-
-
-
-.boton{
-    background-color: rgba(247, 28, 148, 0.678);
-}
-
-.redes{
-    padding: 15px; 
-}
-
-.derechos{
-    margin-top: 2%;
-}
-
-
-
-
 
 .tituloPrincipal{ /*Titulo principal*/
     text-align: center;
@@ -130,6 +110,10 @@ text-align: right;
     padding-left: 20%;
 }
 
+
+.boton{
+    background-color: rgba(247, 28, 148, 0.678);
+}
 
 .mapa{
     margin-left: 5%;
@@ -265,6 +249,14 @@ text-align: right;
     text-align: center; 
     padding-bottom: 15px;
     
+}
+
+.redes{
+    padding: 15px; 
+}
+
+.derechos{
+    margin-top: 2%;
 }
 
 /*NOSOTROS*/
