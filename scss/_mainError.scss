@@ -1,0 +1,33 @@
+.mainError {
+    background-color: map-get($colores-importantes, color-body);
+    background-image: url(../assets/img/LasFloresDeSabrina.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    .tituloPrincipal {
+        text-align: $center;
+        text-transform: uppercase;
+        font-weight: 800;
+        display: flex;
+        justify-content: $center;
+        color: $color-rosa;
+        padding-top: 20%;
+    }
+
+    .textoError {
+        text-align: $center;
+        text-transform: uppercase;
+        font-weight: 900;
+        display: flex;
+        justify-content: $center;
+        color: $color-rosa ;
+        padding-top: 10%
+    }
+
+    .anclaVolver {
+        @extend .textoError;
+        color: rgb(165, 43, 196);
+    }
+}
