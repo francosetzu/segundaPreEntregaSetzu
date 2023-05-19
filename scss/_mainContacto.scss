@@ -1,44 +1,50 @@
-main{
-    .tituloPrincipal{
+main {
+    .tituloPrincipal {
         text-align: $center;
         text-transform: uppercase;
-        font-weight:600;
+        font-weight: 600;
         display: flex;
         justify-content: $center;
         color: $color-rosa;
     }
-    .contenedorForm{
+
+    .contenedorForm {
         padding-top: 2%;
-        
-    }
-    .divForm{
-        padding-right: 10%;
-        padding-left: 10%;
-        
+
     }
 
-    .seleccionar{
-        .divSelect{
+    .divForm {
+        padding-right: 10%;
+        padding-left: 10%;
+
+    }
+
+    .seleccionar {
+        .divSelect {
             padding-right: 20%;
             padding-left: 20%;
         }
     }
-    .divInput{
-        .boton{
+
+    .divInput {
+        .boton {
             background-color: $color-rosa;
         }
     }
-    .seccion{
-        .mapa{
+
+    .seccion {
+        .mapa {
             margin-left: 5%;
         }
-        .textoDeMapa{
+
+        .textoDeMapa {
             display: flex;
             flex-direction: column;
             align-items: $center;
             justify-content: $center;
-            .h2{
-                .las{
+
+            .h2 {
+                .las {
                     color: map-get($colores-importantes, color-lila);
                 }
             }

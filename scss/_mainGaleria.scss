@@ -1,34 +1,39 @@
-.main{
+.main {
     background-color: map-get($colores-importantes, color-body);
-    .tituloPrincipal{
+
+    .tituloPrincipal {
         text-align: $center;
         text-transform: uppercase;
-        font-weight:600;
+        font-weight: 600;
         display: flex;
         justify-content: $center;
         color: $color-rosa;
     }
+
     .contenedorCard {
         margin-top: 8%;
+
         .card-group {
             margin-top: 3%;
             column-gap: 15px;
             padding-bottom: 3%;
-          }
-      }
+        }
+    }
+
     .col {
         margin-top: 3%;
-      }
-        .contenedorTarjeta{
-        margin-top: 7%;
-    
     }
-    
-    .contenedorTarjeta2{
+
+    .contenedorTarjeta {
+        margin-top: 7%;
+
+    }
+
+    .contenedorTarjeta2 {
         margin-top: 1%;
     }
 
-    .contenedorEstrellas{
+    .contenedorEstrellas {
         display: flex;
         justify-content: $center;
     }
