@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+.floresDeBach {
+  color: rgb(250, 74, 177);
+}
+
 .header {
   background-image: url(../assets/img/flat-lay-natural-medicinal-herbs-bottles.jpg);
   background-position: top;
@@ -159,6 +163,12 @@ main .seccion .textoDeMapa .h2 .las {
   background-color: rgb(220, 200, 174);
   text-align: center;
   padding-bottom: 15px;
+}
+.footer .redes {
+  padding: 15px;
+}
+.footer .derechos {
+  margin-top: 2%;
 }
 
 @media screen and (min-width: 0) and (max-width: 786px) {
