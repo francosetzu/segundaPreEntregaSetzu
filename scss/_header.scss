@@ -1,19 +1,14 @@
-.header{
-    background-image: url(../assets/img/flat-lay-natural-medicinal-herbs-bottles.jpg)  ; 
+.header {
+    background-image: url(../assets/img/flores-color-purpura-agua-blanca.jpg);
     background-position: $top;
-    background-size: 99.9% 100%;
-    background-repeat: $cover;
-    .listaNavegacion{
+    background-size: $cover;
+    height: 15vh;
+    .logo{
+        height: 100px;
+        width: 120px;
+    }
+    .listaNavegacion {
         list-style: none;
         text-align: right;
-    }
-    .tituloPrincipal{
-        text-align: $center;
-        text-transform: uppercase;
-        text-decoration: underline;
-        font-weight:600;
-        display: flex;
-        justify-content: $center;
-        color: $color-rosa;
     }
 }

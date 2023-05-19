@@ -1,4 +1,12 @@
 .main{
+    .tituloPrincipal{
+        text-align: $center;
+        text-transform: uppercase;
+        font-weight:600;
+        display: flex;
+        justify-content: $center;
+        color: $color-rosa;
+    }
     .floresDeBach{
         color:$color-rosa;
     }

@@ -1,5 +1,13 @@
 .main{
     background-color: map-get($colores-importantes, color-body);
+    .tituloPrincipal{
+        text-align: $center;
+        text-transform: uppercase;
+        font-weight:600;
+        display: flex;
+        justify-content: $center;
+        color: $color-rosa;
+    }
     .contenedorImagen{
         justify-content: $center;
         margin-left: 30%;

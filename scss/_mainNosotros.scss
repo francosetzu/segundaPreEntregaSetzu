@@ -1,48 +1,48 @@
 .main{
-    background-color: map-get($colores-importantes, color-body);
-        .contenedorImagenUno{
-            margin-left: 20%;
-        }
-        
-        .contenedorImagenDos{
-            margin-left: 20%;
-        }
-        .textoNosotros{
-            margin-right: 10%;
-            margin-top: 10%;
-            padding-top: 50px;
-            .floresDeBach{
-                color: $color-rosa;
-            }
-            .cantidad{
-                color: map-get($colores-importantes, color-violeta);
-            }
+  background-color: map-get($colores-importantes, color-body);
+      .contenedorImagenUno{
+          margin-left: 10%;
+      }
+      
+      .contenedorImagenDos{
+          margin-left: 10%;
+      }
+      .textoNosotros{
+          margin-right: 10%;
+          margin-top: 12%;
+          padding-top: 50px;
+          .floresDeBach{
+              color: $color-rosa;
+          }
+          .cantidad{
+              color: map-get($colores-importantes, color-violeta);
+          }
 
-        }
-        .contenedorImagenTres{
-            margin-left: 20%;
-        }
-        
-        .contenedorImagenCuatro{
-            margin-left: 20%;
-        }
+      }
+      .contenedorImagenTres{
+          margin-left: 10%;
+      }
+      
+      .contenedorImagenCuatro{
+          margin-left: 10%;
+      }
 }
 
 
 @media screen and (min-width: 0) and (max-width: 786px) {
-    .textoNosotros {
-        margin-left: 15%;
-      }
-      .divContenedorImagenUno {
-        margin-left: 1.5%;
-      }
-      .divContenedorImagenDos {
-        margin-right: 1.5%;
-      }
-      .divContenedorImagenTres {
-        margin-right: 1.5%;
-      }
-      .divContenedorImagenCuatro {
-        margin-right: 1.5%;
-      }
+  .textoNosotros {
+      margin-left: 15%;
+    }
+    .divContenedorImagenUno {
+      margin-left: 1.5%;
+    }
+    .divContenedorImagenDos {
+      margin-right: 1.5%;
+    }
+    .divContenedorImagenTres {
+      margin-right: 1.5%;
+    }
+    .divContenedorImagenCuatro {
+      margin-right: 1.5%;
+    }
 }
