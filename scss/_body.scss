@@ -1,7 +1,7 @@
-
-body{ /*Establecemos la fuente y el color del texto*/
+body {
+    /*Establecemos la fuente y el color del texto*/
     font-family: $tipografia-textos;
     color: black;
     background-color: map-get($colores-importantes, color-body);
-    
+
 }

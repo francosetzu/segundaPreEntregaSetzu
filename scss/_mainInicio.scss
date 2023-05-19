@@ -1,35 +1,30 @@
-.main{
+.main {
     background-color: map-get($colores-importantes, color-body);
-    .tituloPrincipal{
+
+    .tituloPrincipal {
         text-align: $center;
         text-transform: uppercase;
-        font-weight:600;
+        font-weight: 600;
         display: flex;
         justify-content: $center;
         color: $color-rosa;
     }
-    .contenedorImagen{
+
+    .contenedorImagen {
         justify-content: $center;
         margin-left: 30%;
     }
-    .textoDeInicio{
-            .floresDeBach{
-            color:$color-rosa;
-            }
-    }
-    }
-    
-    @media screen and (min-width:0) and (max-width: 786px){
-        .divContenedorImagen{
-            margin-right: 80%;
-            padding-right: 70%;
+
+    .textoDeInicio {
+        .floresDeBach {
+            color: $color-rosa;
         }
     }
-    
-  
+}
 
-
-
-
-
-
+@media screen and (min-width:0) and (max-width: 786px) {
+    .divContenedorImagen {
+        margin-right: 80%;
+        padding-right: 70%;
+    }
+}
