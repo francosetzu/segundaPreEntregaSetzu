@@ -190,6 +190,36 @@ main .seccion .textoDeMapa .h2 .las {
   color: rgba(247, 116, 116, 0.918);
 }
 
+.mainError {
+  background-color: rgb(237, 227, 214);
+  background-image: url(../assets/img/LasFloresDeSabrina.jpg);
+  background-size: cover;
+  height: 100vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.mainError .tituloPrincipal {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  color: rgb(250, 74, 177);
+  padding-top: 20%;
+}
+.mainError .textoError, .mainError .anclaVolver {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  color: rgb(250, 74, 177);
+  padding-top: 10%;
+}
+.mainError .anclaVolver {
+  color: rgb(165, 43, 196);
+}
+
 .footer {
   background-color: rgb(220, 200, 174);
   text-align: center;
