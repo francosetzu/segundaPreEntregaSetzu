@@ -1,13 +1,12 @@
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap");
-* {
-  /*Siempre esto para poder sacar toda su configuración y ponerla desde 0*/
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+ /*Siempre el import de la fuente primero*/
+ @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+*{ /*Siempre esto para poder sacar toda su configuración y ponerla desde 0*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 body{ /*Establecemos la fuente y el color del texto*/
     font-family: 'Manrope', sans-serif;
     color: black;
@@ -20,34 +19,21 @@ header{ /*Header, agrego en este caso background image y le modifico la posició
     background-size: 99.9% 100%;
     background-size: cover;
     
-=======
-.floresDeBach {
-  color: rgb(250, 74, 177);
->>>>>>> Sass
 }
 
-.header {
-  background-image: url(../assets/img/flores-color-purpura-agua-blanca.jpg);
-  background-position: top;
-  background-size: cover;
-}
-.header .logo {
-  height: 100px;
-  width: 120px;
-}
-.header .listaNavegacion {
-  list-style: none;
-  text-align: right;
+.logo{ /*logo*/
+    width: 45% ;
+    position: relative;
+    
 }
 
-body {
-  /*Establecemos la fuente y el color del texto*/
-  font-family: "Manrope", sans-serif;
-  color: black;
-  background-color: rgb(237, 227, 214);
+
+.listaNavegacion{ /*listanavegación*/
+list-style: none;
+text-align: right;
+
 }
 
-<<<<<<< HEAD
 .tituloPrincipal{ /*Titulo principal*/
     text-align: center;
     text-transform: uppercase;
@@ -56,214 +42,41 @@ body {
     justify-content: center;
     color:rgb(250, 74, 177);
     
-=======
-.main {
-  background-color: rgb(237, 227, 214);
-}
-.main .tituloPrincipal {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  color: rgb(250, 74, 177);
-}
-.main .contenedorImagen {
-  justify-content: center;
-  margin-left: 30%;
-}
-.main .textoDeInicio .floresDeBach {
-  color: rgb(250, 74, 177);
->>>>>>> Sass
 }
 
-@media screen and (min-width: 0) and (max-width: 786px) {
-  .divContenedorImagen {
-    margin-right: 80%;
-    padding-right: 70%;
-  }
-}
-.main {
-  background-color: rgb(237, 227, 214);
-}
-.main .contenedorImagenUno {
-  margin-left: 10%;
-}
-.main .contenedorImagenDos {
-  margin-left: 10%;
-}
-.main .textoNosotros {
-  margin-right: 10%;
-  margin-top: 12%;
-  padding-top: 50px;
-}
-.main .textoNosotros .floresDeBach {
-  color: rgb(250, 74, 177);
-}
-.main .textoNosotros .cantidad {
-  color: rgb(171, 39, 233);
-}
-.main .contenedorImagenTres {
-  margin-left: 10%;
-}
-.main .contenedorImagenCuatro {
-  margin-left: 10%;
+.main{
+    background-color: rgb(237, 227, 214);
+    
 }
 
-@media screen and (min-width: 0) and (max-width: 786px) {
-  .textoNosotros {
-    margin-left: 15%;
-  }
-  .divContenedorImagenUno {
-    margin-left: 1.5%;
-  }
-  .divContenedorImagenDos {
-    margin-right: 1.5%;
-  }
-  .divContenedorImagenTres {
-    margin-right: 1.5%;
-  }
-  .divContenedorImagenCuatro {
-    margin-right: 1.5%;
-  }
-}
-.main {
-  background-color: rgb(237, 227, 214);
-}
-.main .tituloPrincipal {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  color: rgb(250, 74, 177);
-}
-.main .contenedorCard {
-  margin-top: 8%;
-}
-.main .contenedorCard .card-group {
-  margin-top: 3%;
-  column-gap: 15px;
-  padding-bottom: 3%;
-}
-.main .col {
-  margin-top: 3%;
-}
-.main .contenedorTarjeta {
-  margin-top: 7%;
-}
-.main .contenedorTarjeta2 {
-  margin-top: 1%;
-}
-.main .contenedorEstrellas {
-  display: flex;
-  justify-content: center;
+
+.contenedorImagen{
+    justify-content: center;
+    margin-left: 30%;
 }
 
-main .tituloPrincipal {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  color: rgb(250, 74, 177);
-}
-main .contenedorForm {
-  padding-top: 2%;
-}
-main .divForm {
-  padding-right: 10%;
-  padding-left: 10%;
-}
-main .seleccionar .divSelect {
-  padding-right: 20%;
-  padding-left: 20%;
-}
-main .divInput .boton {
-  background-color: rgb(250, 74, 177);
-}
-main .seccion .mapa {
-  margin-left: 5%;
-}
-main .seccion .textoDeMapa {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-main .seccion .textoDeMapa .h2 .las {
-  color: rgb(169, 131, 204);
+.textoDeInicio{
+    margin-right: 10%;
 }
 
-.main .tituloPrincipal {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
-  color: rgb(250, 74, 177);
-}
-.main .floresDeBach {
-  color: rgb(250, 74, 177);
-}
-.main .card-group {
-  margin-top: 3%;
-  column-gap: 15px;
-  padding-bottom: 3%;
-}
-.main .cita {
-  color: rgba(247, 116, 116, 0.918);
+.floresDeBach{
+    color:rgb(250, 74, 177);
 }
 
-.mainError {
-  background-color: rgb(237, 227, 214);
-  background-image: url(../assets/img/LasFloresDeSabrina.jpg);
-  background-size: cover;
-  height: 100vh;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-.mainError .tituloPrincipal {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 800;
-  display: flex;
-  justify-content: center;
-  color: rgb(250, 74, 177);
-  padding-top: 20%;
-}
-.mainError .textoError, .mainError .anclaVolver {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 900;
-  display: flex;
-  justify-content: center;
-  color: rgb(250, 74, 177);
-  padding-top: 10%;
-}
-.mainError .anclaVolver {
-  color: rgb(165, 43, 196);
+.contenedorImagenUno{
+    margin-left: 20%;
 }
 
-.footer {
-  background-color: rgb(220, 200, 174);
-  text-align: center;
-  padding-bottom: 15px;
-}
-.footer .redes {
-  padding: 15px;
-}
-.footer .derechos {
-  margin-top: 2%;
+.contenedorImagenDos{
+    margin-left: 20%;
 }
 
-@media screen and (min-width: 0) and (max-width: 786px) {
-  .footer {
-    margin-top: 30%;
-  }
+.textoNosotros{
+    margin-right: 10%;
+    margin-top: 10%;
+    padding-top: 50px;
 }
 
-<<<<<<< HEAD
 .cantidad{
     color: rgb(171, 39, 233);
 }
@@ -515,6 +328,3 @@ main .seccion .textoDeMapa .h2 .las {
 }
 
 /* TERMINA LA MEDIA QUERIE*/
-=======
-/*# sourceMappingURL=estilos.css.map */
->>>>>>> Sass
