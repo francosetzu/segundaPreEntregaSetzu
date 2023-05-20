@@ -1,0 +1,24 @@
+.main {
+    .tituloPrincipal {
+        text-align: $center;
+        text-transform: uppercase;
+        font-weight: 600;
+        display: flex;
+        justify-content: $center;
+        color: $color-rosa;
+    }
+
+    .floresDeBach {
+        color: $color-rosa;
+    }
+
+    .card-group {
+        margin-top: 3%;
+        column-gap: 15px;
+        padding-bottom: 3%;
+    }
+
+    .cita {
+        color: rgba(247, 116, 116, 0.918);
+    }
+}
